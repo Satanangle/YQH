@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*.col{*/
+    /*width: 100%;*/
+    /*!*height: 410px;*!*/
+    /*height: 100%;*/
+    /*border: 1px solid red;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+.fy{
+    /*width: 280px;*/
+    width: 100%;
+    /*height: 410px;*/
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#jdt{
+    width: 100%;
+    height: 5px;
+    border: 1px solid rgba(255,255,255,0.3);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+#jdt p{
+    width:20%;
+    height: 5px;
+    background: #08A1EF;
+}
+.zy{
+    /*width: 280px;*/
+    width: 100%;
+    /*height: 4100px;*/
+    height: 1000vh;
+    position: absolute;
+    top: 0px;
+
+}
+.iterm{
+    /*width: 280px;*/
+    width: 100%;
+    /*height: 410px;*/
+    height: 100vh;
+    position: relative;
+}
+span{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 24px;
+
+}
+#top,#down{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 18px;
+    position: absolute;
+    z-index: 10;
+}
+
+#top{
+    top:69vh ;
+    right: 0;
+}
+#down{
+    top:75vh ;
+    right: 0;
+}
+.iterm .p1 {
+    /*width: 280px;*/
+    width: 100%;
+    /*height: 410px;*/
+    height: 100vh;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    -moz-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+.iterm .p2 {
+    width: 55vw;
+    height: 150px;
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    left: 0;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.iterm .p3 {
+    width: 45vw;
+    height:60px;
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    right: 5vw;
+}
+.iterm .p4 {
+    width: 35vw;
+    height: 36vh;
+    position: absolute;
+    z-index: 10;
+    top: 20vh;
+    left: 30vw;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.iterm .p5,.iterm .p6,.iterm .p7,.iterm .p8{
+    width: 65vw;
+    height: 20px;
+    position: absolute;
+    z-index: 10;
+    top: 58vh;
+    left: 20vw;
+    line-height: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: fangzheng_xbsjt;
+    -moz-animation-delay:2s;
+    animation-delay: 2s;
+}
+.iterm .p6{
+    top: 62vh;
+    -moz-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+.iterm .p7{
+    top: 68vh;
+    -moz-animation-delay: 3s;
+    animation-delay: 3s;
+}
+.iterm .p8{
+    top: 72vh;
+    width: 80vw;
+    left: 10vw;
+    -moz-animation-delay: 3s;
+    animation-delay: 3s;
+}
+.iterm .span1{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid red;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: red;
+    z-index: 10;
+    animation: xuanzhuan 2s linear infinite;
+    -moz-animation: xuanzhuan 2s linear infinite;
+    background:black;
+}
+.iterm .span2{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    z-index: 10;
+    /*background-image: url(http://as.eqh5.com/h5_view/images/normalmusic.svg) no-repeat center center/100% 100%;*/
+    animation: xuanzhuan 2s linear infinite;
+    -moz-animation: xuanzhuan 2s linear infinite;
+    background:black;
+    display: none ;
+}
+/*第二页*/
+.page2 .p4{
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    z-index: 10;
+    top: 2vh;
+    left: 12vw;
+    line-height: 40px;
+    text-align: center;
+}
+.page2 .p5{
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    z-index: 10;
+    top: 132px;
+    left: 0px;
+    opacity: 0.2;
+}
+.page2 ul{
+    position: absolute;
+    top: 145px;
+    left: 60px;
+    z-index: 10;
+    padding-right: 10px;
+    opacity: 0.6;
+    width: 238px;
+}
+.page2 ul li{
+    list-style: none;
+    font-size: 16px;
+    color: rgb(0,0,0);
+    padding: 5px 0;
+    opacity: 0.6;
+}
+/*第三页*/
+.page3 .p4{
+    width: 150px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0,0,0);
+    font-family: fangzheng_dbsjt;
+    position: absolute;
+    top: 83px;
+    left: 135px;
+    z-index: 10;
+}
+.page3 .p5{
+    width: 272px;
+    height: 266px;
+    position: absolute;
+    z-index: 10;
+    top:145px;
+    left: 45px;
+    font-size: 16px;
+    color: rgb(0,0,0);
+    opacity: 0.6;
+}
+/*第四页*/
+.page4 .p4{
+    width: 150px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0,0,0);
+    font-family: fangzheng_dbsjt;
+    position: absolute;
+    top: 83px;
+    left: 120px;
+    z-index: 10;
+}
+.page4 .p5{
+    width: 280px;
+    height: 135px;
+    position: absolute;
+    z-index: 10;
+    top: 205px;
+    left: 20px;
+}
+.page4 .p6{
+    width: 280px;
+    height: 135px;
+    position: absolute;
+    z-index: 10;
+    top: 360px;
+    left: 20px;
+}
+.page4 .p7{
+    width: 165px;
+    height: 99px;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top:525px;
+}
+/*第五张*/
+.page5 .p4{
+    width: 150px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0,0,0);
+    font-family: fangzheng_dbsjt;
+    position: absolute;
+    top: 83px;
+    left: 120px;
+    z-index: 10;
+}
+.page5 .p5{
+    width: 280px;
+    height: 135px;
+    border: 1px solid red;
+    position: absolute;
+    z-index: 10;
+    top: 205px;
+    left: 20px;
+}
+.page5 .p6{
+    width: 280px;
+    height: 135px;
+    border: 1px solid red;
+    position: absolute;
+    z-index: 10;
+    top: 360px;
+    left: 20px;
+}
+.page5 .p7{
+    width: 165px;
+    height: 99px;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top:525px;
+}
+@keyframes  xuanzhuan{
+   0%{
+    transform: rotate(0deg);
+}
+   100%{
+    transform: rotate(360deg);
+}
+}
+@-moz-keyframes  xuanzhuan{
+   0%{
+    transform: rotate(0deg);
+}
+   100%{
+    transform: rotate(360deg);
+}
+}
