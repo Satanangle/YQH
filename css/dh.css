@@ -165,9 +165,11 @@ span{
     z-index: 10;
     animation: xuanzhuan 2s linear infinite;
     -moz-animation: xuanzhuan 2s linear infinite;
+    -webkit-animation: xuanzhuan 2s linear infinite;
+    -o-animation: xuanzhuan 2s linear infinite;
     background:black;
 }
-.iterm .span2{
+/*.iterm .span2{
     display: block;
     width: 20px;
     height: 20px;
@@ -180,12 +182,11 @@ span{
     right: 10px;
     color: red;
     z-index: 10;
-    /*background-image: url(http://as.eqh5.com/h5_view/images/normalmusic.svg) no-repeat center center/100% 100%;*/
     animation: xuanzhuan 2s linear infinite;
     -moz-animation: xuanzhuan 2s linear infinite;
     background:black;
     display: none ;
-}
+}*/
 /*第二页*/
 .page2 .p4{
     width: 160px;
@@ -209,11 +210,12 @@ span{
 .page2 ul{
     position: absolute;
     top: 145px;
-    left: 60px;
+    left:50%;
+    margin-left: -119px;
     z-index: 10;
     padding-right: 10px;
     opacity: 0.6;
-    width: 238px;
+    width: 241px;
 }
 .page2 ul li{
     list-style: none;
@@ -242,7 +244,8 @@ span{
     position: absolute;
     z-index: 10;
     top:145px;
-    left: 45px;
+    left: 50%;
+    margin-left: -136px;
     font-size: 16px;
     color: rgb(0,0,0);
     opacity: 0.6;
@@ -266,16 +269,18 @@ span{
     height: 135px;
     position: absolute;
     z-index: 10;
-    top: 205px;
-    left: 20px;
+    top: 170px;
+    left: 50%;
+    margin-left: -140px;
 }
 .page4 .p6{
     width: 280px;
     height: 135px;
     position: absolute;
     z-index: 10;
-    top: 360px;
-    left: 20px;
+    top: 325px;
+    left: 50%;
+    margin-left: -140px;
 }
 .page4 .p7{
     width: 165px;
@@ -283,7 +288,7 @@ span{
     position: absolute;
     z-index: 10;
     left: 0;
-    top:525px;
+    top:480px;
 }
 /*第五张*/
 .page5 .p4{
@@ -302,20 +307,20 @@ span{
 .page5 .p5{
     width: 280px;
     height: 135px;
-    border: 1px solid red;
     position: absolute;
     z-index: 10;
-    top: 205px;
-    left: 20px;
+    top: 170px;
+    left: 50%;
+    margin-left: -140px;
 }
 .page5 .p6{
     width: 280px;
     height: 135px;
-    border: 1px solid red;
     position: absolute;
     z-index: 10;
-    top: 360px;
-    left: 20px;
+    top: 325px;
+    left: 50%;
+    margin-left: -140px;
 }
 .page5 .p7{
     width: 165px;
@@ -323,7 +328,7 @@ span{
     position: absolute;
     z-index: 10;
     left: 0;
-    top:525px;
+    top:480px;
 }
 @keyframes  xuanzhuan{
    0%{
@@ -334,6 +339,22 @@ span{
 }
 }
 @-moz-keyframes  xuanzhuan{
+   0%{
+    transform: rotate(0deg);
+}
+   100%{
+    transform: rotate(360deg);
+}
+}
+@-webkit-keyframes  xuanzhuan{
+   0%{
+    transform: rotate(0deg);
+}
+   100%{
+    transform: rotate(360deg);
+}
+}
+@-o-keyframes  xuanzhuan{
    0%{
     transform: rotate(0deg);
 }
